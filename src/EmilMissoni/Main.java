@@ -1,12 +1,15 @@
 package EmilMissoni;
 
 import EmilMissoni.Triangle.Sierpinski;
+
 import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Sierpinski sierpinski = new Sierpinski(Integer.parseInt(args[0].substring(args[0].length() - 7, args[0].length() - 1)), args[1]);
+
+        int seed = Integer.parseInt(args[0].substring(0, Math.min(args[0].length(), 7)));
+        Sierpinski sierpinski = new Sierpinski(seed, args[1]);
     }
 
 }
