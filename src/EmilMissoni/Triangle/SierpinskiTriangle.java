@@ -31,13 +31,13 @@ public class SierpinskiTriangle {
                     length * 2,
                     t_1,
                     t_2.transact(t_1, t_2, (pos.x - position.x) / size),
-                    0, 3,
+                    0, 1.5f,
                     t_1,
                     t_2.transact(t_1, t_2, (pos.x - position.x) / size),
-                    0, 3,
+                    0, 1.5f,
                     t_1,
                     t_2.transact(t_1, t_2, (pos.x - position.x) / size),
-                    0, 3,
+                    0, 1.5f,
                     thickness
                     );
 
